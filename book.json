@@ -2,6 +2,8 @@
     "root": "./",
     "title": "字条网示例文档",
     "head_title": "_示例文档_字条网",
+    "head_description": "描述",
+    "head_keywords": "关键词",
     "logo": "./images/logo.png",
 
     "gitbook": ">= 3.0.0",

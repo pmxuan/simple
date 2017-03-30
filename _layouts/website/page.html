@@ -1,9 +1,10 @@
 {% extends "website/layout.html" %}
 
 {% block title %}{{ page.title }}{{ config.head_title }}{% endblock %}
-{% block description %}{{ page.description }}{% endblock %}
+{% block description %}{{ config.head_description }}{% endblock %}
 
 {% block head %}
+    <meta name="keywords" content="{{ config.head_keywords }}">
     <meta name="HandheldFriendly" content="true"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -87,8 +88,8 @@
     <footer class="gb-page-footer">
         <div class="container footer-container">
             <div class="copyright">
-                Copyright © 2013-2016&nbsp;<strong><a href="http://www.jikexueyuan.com/" target="_blank">jikexueyuan.com</a></strong> All Rights Reserved. 京ICP备11018032号-8 京公网安备11010802020210
-            </div>    
+                All Rights Reserved.
+            </div>
         </div>
     </footer>
 </div>
@@ -116,6 +117,4 @@
         }
     });
 </script>
-
-<script src="http://e.jikexueyuan.com/static/js/growingio.js"></script>
 {% endblock %}

@@ -1,0 +1,7 @@
+stages:
+  - deploy
+
+BITBUCKET MIRROR:
+  stage: deploy
+  script:
+    - . /home/gitlab-runner/shell/sync.sh `git config remote.origin.url | awk -F / '{ print $(NF-1)"/"$NF }'`

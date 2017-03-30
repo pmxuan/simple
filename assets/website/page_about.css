@@ -1,0 +1,139 @@
+    *{ margin:0; padding: 0 }
+    p{margin: 2px!important; padding: 2px!important}
+    li{
+        list-style: none;
+    }
+    #aboutus {
+    /*    width: 766px;*/
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .mt ul li {
+        width: 766px;
+    }
+    .fs14 {
+        font-size: 14px
+    }
+    .mart {
+        margin-top: 100px
+    }
+    .cf {
+        zoom: 1
+    }
+    .cf:after {
+        content: '';
+        display: block;
+        clear: both;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden
+    }
+    .color3 {
+        color: #333
+    }
+    #aboutus h3 {
+        font-size: 14px;
+        color: #333;
+        font-weight: 500
+    }
+    #aboutus .jklogo {
+        display: block;
+        margin: 30px auto
+    }
+    #aboutus p {
+        font-size: 14px;
+        color: #333;
+        line-height: 24px
+    }
+    #aboutus h4 {
+        font-size: 14px;
+        color: #949494;
+        text-align: center
+    }
+    #aboutus .ceoinfor {
+        margin-top: 40px
+    }
+    #aboutus .ceoinfor .headimg {
+        border-radius: 50%;
+        border: 2px solid #35b558;
+        float: left;
+        margin-top: 50px
+    }
+    #aboutus .ceoinfor .infor-txt {
+        margin-left: 220px;
+        font-size: 14px;
+        color: #333;
+        line-height: 24px
+    }
+    #aboutus .ceoinfor .infor-txt h5 {
+        font-weight: bold;
+        margin-bottom: 20px
+    }
+    #aboutus .touzi {
+        margin-top: 40px;
+        border: 1px solid #fff
+    }
+    #aboutus .touzi img {
+        float: left;
+        border: 1px solid #e5e5e5
+    }
+    #aboutus .touzi .touzi-txt {
+        margin-top: 40px;
+        margin-left: 184px;
+        border-left: 1px solid #e5e5e5;
+        padding-left: 30px;
+        box-sizing: border-box
+    }
+    #aboutus .touzi .touzi-txt h5 {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px
+    }
+    #aboutus .touzi .touzi-txt p {
+        text-indent: 0;
+        box-sizing: border-box;
+        margin: 1px
+    }
+    #aboutus .rongyu {
+        margin-top: 40px;
+        margin: 0;
+        padding: 0
+    }
+    #aboutus .rongyu li {
+        float: left
+    }
+    #aboutus .rongyu li:nth-child(1) {
+        width: 230px;
+        margin-right: 5px;
+        margin-left: 1px;
+        margin-top: 35px;
+        text-align: center
+    }
+    #aboutus .rongyu li:nth-child(2) {
+        width: 250px;
+        margin-right: 5px
+    }
+    #aboutus .rongyu li:nth-child(2) p {
+        text-indent: 0
+    }
+    #aboutus .rongyu li:nth-child(3) {
+        width: 230px;
+        margin-top: 35px
+    }
+    #aboutus .rongyu2 {
+        margin-top: 40px
+    }
+    #aboutus .rongyu2 dd {
+      float: left;
+      width: 170px;
+      margin-right: 14px;
+      display: inline-block;
+    /*-webkit-margin-start: 0;*/
+    }
+    #aboutus .rongyu2 dd h5 {
+        font-size: 14px;
+        margin-top: 5px
+    }
+    #aboutus .rongyu2 dd:nth-child(4) {
+        margin-right: 0
+    }

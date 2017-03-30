@@ -1,0 +1,11 @@
+{
+  "name": "示例文档_字条网",
+  "description": "字条网的示例文档",
+  "version": "1.0.0",
+  "dependencies": {
+    "gitbook": "^3.2.0",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-search-pro": "^2.0.0",
+    "gitbook-plugin-fontsettings": "^2.0.0"
+  }
+}

@@ -17,12 +17,12 @@
         "-search",
         "search-pro",
         "theme-official",
-        "sitemap"
+        "sitemap-general"
     ],
 
     "pluginsConfig": {
-        "sitemap": {
-            "hostname": "http://zitiao.org/simple"
+        "sitemap-general": {
+            "prefix": "http://zitiao.org/simple/"
         }
     }
 }
